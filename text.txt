@@ -1,0 +1,37 @@
+
+source ~/env/youtube_api/bin/activate
+
+bot token: MTA3NjQ1NjQ0NDg5MjgyNzcwOQ.GUVx6G.aDft1jwv8EBIjtm1wxv-k506s7v2PmLt-bv7SU
+github_token: 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
+
+YOUTUBE API 
+
+-Les fichiers "playlist_items_retrieving.py" et "playlist_items_insert.py" sont des pythons scripts pour faire des requêtes avec le youtube DATA API v3 avec une authentification OAuth 2.0
+pour accéder à ma chaîne personnel. Des requêtes concernant mes playlists et les items de mes playlists.
+-Fichier convert_mp3 convertit les items d'une playlist choisi en fichiers mp3 et envoie sur le serveur Mr pug sur discord,
+enfin supprime tout les items choisi d'une playlist sur youtube
+
+Mise en place de l'environnement google api:
+
+google cloud -> création projet -> activation de youtube DATA API v3 
+-> création d'un Oauth client -> YOUR_CLIENT_SECRET_FILE.JSON
+
+Librairies:
+
+-google api client, auth...(for youtube api)
+-JSON
+-pytube(converting yt videos to mp3)
+-discorweebhook(sending mp3 to discord)
+
+Informations additionels:
+
+-Oauth 2.0 permet de créez un token pour autoriser la requêtes
+
+-Youtube api documentation 
+
+limits:
+
+80 max webhook python send mp3
+
+
+
