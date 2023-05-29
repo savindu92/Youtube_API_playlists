@@ -2,6 +2,7 @@
 source ~/env/youtube_api/bin/activate
 
 bot token: MTA3NjQ1NjQ0NDg5MjgyNzcwOQ.GUVx6G.aDft1jwv8EBIjtm1wxv-k506s7v2PmLt-bv7SU
+
 github_token: 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
 
 YOUTUBE API 
